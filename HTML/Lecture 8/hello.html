@@ -2,14 +2,21 @@
 
 <html lang="en">
     <head>
-        <title>
-            
-        </title>
+    </head>
+        <title>hello</title>
     </head>
     <body>
         <form>
-            <input  autocomplete="off" autofocus id="name" placeholder="Name" type="text">
+            <input  autocomplete="off" autofocus id="name" name="name" placeholder="Name" type="text">
             <input type="submit">
         </form>
+        <script>
+            
+            document.querySelector('form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                alert('hello, ' + document.querySelector('name').value);
+            });
+
+        </script>
     </body>
 </html>
