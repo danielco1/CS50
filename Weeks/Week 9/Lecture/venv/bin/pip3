@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/home/nova/CS50/Weeks/Week 8/Week 9/Lecture/venv/bin/python3" "$0" "$@"
+'''exec' "/home/nova/CS50/Weeks/Week 9/Lecture/venv/bin/python3" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re
