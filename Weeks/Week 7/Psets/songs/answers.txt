@@ -1,0 +1,13 @@
+Spotify could use the audio features in the database, like energy, danceability, and valence, to calculate average levels. 
+
+These averages help build an “audio aura” that reflects whether a listener prefers upbeat, danceable tracks or calmer, moodier ones.
+
+However, this method has limits. The dataset only shows the global top 100 songs, not a specific person’s listening history.
+
+Averages also flatten variety and ignore lyrics or emotional context.
+
+A better approach would use actual play history, weight songs by frequency, and include more features like tempo or lyrical sentiment. 
+
+That would give a more personal and accurate aura.
+
+This shows how data can reveal patterns but also oversimplify. Music is personal, and numbers alone can’t fully capture it.
