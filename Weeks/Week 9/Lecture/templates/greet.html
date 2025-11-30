@@ -3,7 +3,12 @@
 
 {% block body %}
 
-    hello, {{ name }}
+    hello,
+    {% if name %}
+        {{ name }}
+    {% else %}
+        Guest
+    {% endif %}
     
 {% endblock %}
 
